@@ -10,4 +10,7 @@ let v = new Vue({
   render: h => h(App)
 }).$mount('#app')
 
+console.log(v)
+
+
 // 所有组件都能执行的方法 Vue.mixin({beforeCreate}), 拿到store挂载到自己的身上
